@@ -1,0 +1,93 @@
+/* francojmf@hotmail.com */
+
+@font-face {
+  font-family: ProximaNova;
+  src: local("ProximaNova"), local("proximanova-regular"), url(assets/fonts/proximanova-regular/proximanova-regular-webfont.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: local("Montserrat Light"), local("Montserrat-Light"), url(https://fonts.gstatic.com/s/montserrat/v12/JTURjIg1_i6t8kCHKm45_cJD3gnD-A.woff) format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: local("Montserrat Medium"), local("Montserrat-Medium"), url(https://fonts.gstatic.com/s/montserrat/v12/JTURjIg1_i6t8kCHKm45_ZpC3gnD-A.woff) format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+body {
+
+    margin-left: 20px; 
+    margin-bottom: 50px; 
+    height:100%;
+    scrollbar-arrow-color:#000000;
+    scrollbar-3dlight-color:#000000;
+    scrollbar-highlight-color:#FF0000;
+    scrollbar-face-color:#FFFFFF;
+    scrollbar-shadow-color:#0000FF;
+    scrollbar-darkshadow-color:#FFFF00;
+    scrollbar-track-color:#00FF00;
+    font-family: Montserrat;
+    font-weight: normal;
+    background-color: #FFFFF6;
+ }
+
+
+a  {    
+    font-size:20px;
+ }
+
+h1 {
+    font-family: Montserrat;
+    font-weight: bold;
+    color: #060;
+ }
+
+p {
+    font-family: Montserrat;
+    font-size: 18px;
+  }
+
+
+.icon-bar {
+      position: fixed;
+      bottom: 1%;
+      right: 1%;
+    }
+
+.icon-bar a {
+      float: right; 
+      display: block;
+      text-align: center;
+      padding: 16px;
+      transition: all 0.3s ease;
+      color: white;
+      font-size: 30px;
+    }
+
+.icon-bar a:hover {
+      background-color: #CCC;
+    }
+
+
+.coracao {
+      font-size: 20px;
+      color: #333;
+    }
+
+.balao {
+      font-size: 20px;
+      color: #333;
+    }
+
+.lapis-com-linha {
+      font-size: 20px;
+      color: #333;
+    }
