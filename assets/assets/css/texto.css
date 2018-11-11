@@ -1,0 +1,111 @@
+/* francojmf@hotmail.com */
+
+
+@font-face {
+  font-family: Montserrat;
+  src: local("Montserrat Medium"), local("Montserrat-Medium"), url(https://fonts.gstatic.com/s/montserrat/v12/JTURjIg1_i6t8kCHKm45_ZpC3gnD-A.woff) format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@media screen {
+  body {
+  font-size: 18px;
+  }
+}
+
+@media (max-width: 939px) {
+  body {
+  font-size: 16px;
+  }
+}
+
+@media (max-width: 803px) {
+  body {
+  font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+  font-size: 12px;
+  }
+}
+
+@media (max-width: 316px) {
+  header {
+  font-size: 10px;
+  }
+  div {
+  padding-top: 120px;
+}
+}
+
+body {
+
+    margin-left: 20px; 
+    margin-bottom: 50px; 
+    height:100%;
+    font-family: Montserrat;
+    font-weight: normal;
+    background-color: #FFFFF6;
+ }
+
+header {
+    height: 50px;
+    top: 0;
+    position: fixed;
+    background-color: #FFFFF6;
+}
+
+#titulo{
+  top: 0;
+  height: 50px;
+  width: 100%;
+}
+
+
+h1 {
+    top: 0;
+    width: 100%;
+    font-family: Montserrat;
+    font-weight: bold;
+    background-color: #FFFFF6;
+    color: #060;
+ }
+
+div {
+  padding-top: 80px;
+  padding-bottom: 5px;
+  width: 98%;
+  font-family: Montserrat;
+}
+
+p {    
+    width: 98%;
+    height:85%; 
+    font-family: Montserrat;
+  }
+
+
+.icon-bar {
+      position: fixed;
+      bottom: 1%;
+      right: 1%;
+    }
+
+.icon-bar a {
+      float: right; 
+      display: block;
+      text-align: center;
+      padding: 16px;
+      padding-bottom: 1px;
+      transition: all 0.3s ease;
+      color: #333;
+      font-size: 30px;
+    }
+
+.icon-bar a:hover {
+      background-color: #CCC;
+    }
+
